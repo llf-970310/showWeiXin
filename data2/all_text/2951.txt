@@ -1,0 +1,17 @@
+根据中国眼镜标准（英文版）三年编译计划，中国眼镜标准编译委员会（BZBY）于2016年6月16日在浙江省嘉兴市沙龙国际宾馆召开了GB 27995.1-2011（E）《半成品眼镜片毛坯第1部分：单光和多焦点眼镜片毛坯规范》和GB 27995.2-2011（E）《半成品眼镜片毛坯第2部分：渐变焦眼镜片毛坯规范》国家标准（英文版）的第二次工作会议。出席本次工作会议的专家代表有全国眼镜光学标准化分技术委员会常务副主任委员蒋伟忠教授、全国眼镜标准化中心孙环宝主任、国家眼镜玻璃搪瓷制品质量监督检验中心张尼尼副主任和郭琳副主任、唐玲玲总工程师、浙江省眼镜质量检测中心吴郭华主任以及来自依视路、卡尔蔡司、豪雅、康耐特、伟星和万新等行业专家17人。本次工作会议由孙环宝主任主持，首先代表全国眼镜标准化中心对出席本次工作会议的各位专家代表表示欢迎，然后由编译小组对GB 27995.1-2011（E）和GB 27995.2-2011（E）的征求意见返回情况作了介绍，参加会议的专家代表对相关条款进行讨论。
+
+经过一天的讨论，与会代表对GB 27995.1-2011（E）内容作如下修改：
+1.  确定了3.1、3.2和3.4中定义的英文；
+2.  在5.3 中，确定用“Geometrical Tolerances”替换“Geometrical size”；
+3.  在5.3.4.2中，确定用“distance design reference point”替换“design reference point”；
+4.  在6.5中，确定用“light/dark boundary”替换“bright field with dark background”；
+5.  在7.1.a.4中，确定用“ (if notcolourless)”替换“ (if not white)”。
+
+专家代表对GB 27995.2-2011（E）主要修改内容如下：
+1.  确定3.1、3.2和3.4中定义的英文；
+2.  在5.1中，删除“design referencepoints”中的“design”；
+3.  在6.3中，确定用“light/darkboundary”替换“bright fieldwith dark background”；
+4.  在8.1中，确定用“material of whichthe lens blank is made, its refractive index or the trade name indicating thematerial or equivalent”替换“material ofwhich the lens blank is made, its refractive index or the equivalent trade nameindicating the material”。
+
+会议结束前，孙环宝主任对本次会议作了总结，并对下阶段眼镜标准（英文版）编译工作进行部署，同时要求编译小组尽快根据本次会议的修改意见完善标准文本。GB 27995.1-2011（E）和GB 27995.2-2011（E）审定会计划于2016年下半年召开，本次工作会议圆满结束。
+

@@ -1,0 +1,30 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="{% static 'css/testcss.css' %}">
+    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body >
+{#    <p><a href="{% url 'pre_solve' %}">处理</a></p>#}
+{#    <p><a href="{% url 'adddate' %}">添加时间</a></p>#}
+        <ul id="nav">
+            <li><a href="{% url 'show_keywords' %}">首页</a></li>
+            <li><a href="{% url 'passage_all_analyse' %}">文章分析</a></li>
+            <li><a href="{% url 'passage_part_analyse' %}">公众号分析</a></li>
+            <li><a href="{% url 'tophot' %}">文章热度榜</a></li>
+            <li><a href="{% url 'huitu' %}">发文趋势统计</a></li>
+        </ul>
+        {% block content %}
+        {% endblock %}
+
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+{% include 'base.html' %}
+
+{% block content %}
+    <div class="image" align="center">
+        <img src="static/textrank_wordcloud.jpg" height="500" width="800">
+    </div>
+    <div class="page-header" align="center">
+{#        <a href="{% url 'adddate' %}"> 添加部门</a><br>#}
+        {% for keyword in keywords %}
+            <p><a href ="{% url 'show_keyword_passage' keyword.id%}">{{ keyword.word }}</a>: {{ keyword.releate }}</p>
+        {% endfor %}
+
+        {% if page %}
+            <div class="pagination">
+                <span class="step-links">
+                    {% if keywords.has_previous %}
+                        <a href="?page={{ keywords.previous_page_number }}">{{ keywords.previous_page_number }}</a>
+                    {% endif %}
+                    <span class="current">
+                        &nbsp;{{ keywords.number }}&nbsp;
+                    </span>
+                    {% if keywords.has_next %}
+                        <a href="?page={{ keywords.next_page_number }}">{{ keywords.next_page_number }}</a>
+                    {% endif %}
+                </span>
+            </div>
+        {% endif %}
+    </div>
+{% endblock %}

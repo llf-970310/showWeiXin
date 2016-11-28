@@ -1,0 +1,40 @@
+{% include 'base.html' %}
+
+{% block content %}
+    <div class="page-header">
+        <table border="1"cellpadding="0"cellspacing="0">
+        {% for passage in passages %}
+            <tr>
+                <td width="700"><a href="{% url 'passage_detail' passage.id %}"><i class="fa fa-aw fa-file-text-o"></i>&nbsp;{{ passage.title }}</a></td>
+                <td width="100"><a href=""><i class="fa fa-aw fa-hand-o-up"></i>&nbsp;{{ passage.dianzan}}</a></td>
+                <td width="150"><a href=""><i class="fa fa-aw fa-clock-o"></i>&nbsp;{{ passage.publish_time }}</a></td>
+                <td><a href=""><i class="fa fa-aw fa-home"></i>&nbsp;{{ passage.departmentname }}</a></td>
+            </tr>
+        {% endfor %}
+
+        {% if page %}
+            <div class="pagination">
+                <span class="step-links">
+                    {% if passages.has_previous %}
+                        <a href="?page={{ passages.previous_page_number }}">上一页</a>
+                    {% endif %}
+{#                    <span class="current">#}
+{#                        &nbsp;{{ passages.number }}&nbsp;#}
+{#                    </span>#}
+                    {% for page in passages.paginator.page_range %}
+                         {% if page == passages.number %}
+                             <a class='paginator_current' title='当前页:{{ page }}'><span>{{ page }}</span></a>
+                         {% else %}
+                             <a class='paginator' href='?page={{ page }}' title='{{ page }}'><span>{{ page }}</span></a>
+                         {% endif %}
+                     {% endfor %}
+                    {% if passages.has_next %}
+                        <a href="?page={{ passages.next_page_number }}">下一页</a>
+                    {% endif %}
+                    <a href="{% url 'show_keywords' %}">首页</a>
+                </span>
+            </div>
+        {% endif %}
+        </table>
+    </div>
+{% endblock %}

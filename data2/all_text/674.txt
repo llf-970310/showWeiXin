@@ -1,0 +1,66 @@
+Modeling and Analysis for the Transmission of Heroin
+主讲人：李学志教授
+地  点：松江校区2号学院楼331报告厅
+时  间：2016-05-23（周一） 14:00:00
+组织单位：理学院应用数学系
+主讲人简介： Anyang Institute of Technology Vice President；Outstanding Expert of Henan Province；Executive Director of the Chinese BiologicalMathematics Association
+内容摘要：The transmission of heroin is a very serious social problem. The abuse of heroin not only causes physical and psychological harm to the smokers, but also brings great harm to family and society, and breed many illegal crime and social problems, heroin is also an important transmission route for HIV/AIDS and hepatitis C virus (HCV).
+讲座主持：寇春海教授
+讲座语言：英语 
+Rate of convergence and asymptotic error distribution of Euler approximation schemes for fractional 
+主讲人： Professor Yaozhong Hu
+地点： 松江校区2号学院楼331报告厅
+时间：  2016-05-23 （周一） 15:00:00
+组织单位：理学院数学系
+主讲人简介：Prof.Yaozhong Hu ，Department of Mathematics, University of Kansas, USA
+讲座主持：闫理坦、何坤
+讲座语言：英语 
+气象观测物联网及其数据安全
+主讲人： 孙星明
+地点： 松江校区一号学院楼140室
+时间：2016-05-24（周二）  13:30:00
+组织单位：计算机科学与技术学院
+主讲人简介：南京信息工程大学计算机与软件学院院长，江苏省网络监控工程研究中心主任。研究方向为网络与信息安全、物联网。
+内容摘要：讲座旨在分享基于气象观测的物联网、云计算、数据安全等重大科研项目经验。具体通过“基于传感器网络的加密气象观测关键技术研究”“云数据安全审计的理论模型与新方法研究”详细阐述项目的研究内容、研究过程、研究成果与应用。
+基于深度学习的视频大数据分析
+主讲人： 薛向阳
+地点： 松江校区一号学院楼140室
+时间：  2016-05-24 （周二） 13:30:00
+组织单位：计算机科学与技术学院
+主讲人介绍：复旦大学计算机科学与技术学院教授，博士生导师。主要从事图像视频大数据分析、计算机视觉和深度学习等研究，在国际权威期刊和顶级会议上发表论文百余篇，作为主要完成人获国家科技进步奖一等奖和二等奖各1项、上海市科技进步一等奖3项。
+内容摘要：本报告介绍深度学习在计算机视觉领域最新研究进展，介绍用深度学习方法实现视频内容识别，介绍视频大数据分析的实际应用案例。
+材料强度知多少？
+主讲人： 叶先扬
+地点： 松江校区纺织学院3004会议室
+时间：  2016-05-25（周三）  13:00:00
+组织单位：  纺织学院
+主讲人简介：叶先扬，加州州大长滩分校(Calif. State U. Long Beach)机械系教授，主要研究方向：复合材料损伤及结构物件断裂问题的研究。
+内容摘要： 
+1. Review of previous research works about material strength
+2.The Yeh-Stratton failure criterion for composite material
+3.Engineering applications of the failure criteria 
+发现 选择 超越
+主讲人： 张泽群
+地点： 松江校区第二报告厅
+时间：  2016-05-26（周四）  18:00:00
+组织单位：  团委
+主讲人简介：中央电视台节目主持人，全国人大代表。毕业于北京广播学院（现中国传媒大学）。1988年中央电视台首届节目主持人大赛业余组第三名，1991年拍摄纪录片《山碑》获“神农奖”，1999年担任国际大专辩论会主席，2005年至2011年连续主持中央电视台春节联欢晚会。获1995年“五四新闻奖”银奖、1995年获得“金童奖”金奖、2009年金话筒播音主持作品奖等。
+广告影响研究：金融市场对创新和广告的反应及复杂多媒体广告的作用
+主讲人： 熊桂洋
+地点： 延安路校区旭日楼306室
+时间：2016-05-27 （周五） 09:30:00
+组织单位： 旭日工商管理学院
+主讲人简介： 熊桂洋博士，美国乔治亚大学商学院的助理教授，毕业于美国埃默里大学，获得市场营销系博士。他的研究主要集中在企工商管理和市场营销领域，具体方向包括实证建模、新产品创新和管理、社交媒体和广告等。。
+内容摘要： 讲座分两个部分，第一部分是关于金融市场对创新和广告的反应。论文基于跨行业的面板数据的计量分析，探讨了公司的机构投资者如何调节创新和广告对企业财务绩效的影响，强调了营销投资和机构投资者的投资视野之间的匹配的重要性。第二部分是关于如何利用广告大数据检验多媒体广告活动的作用。
+Computation of Fourier Transforms for Noisy and Bandlimited Signals
+主讲人：  陈卫东
+地点：  松江校区2号学院楼331报告厅　　　
+时间：   2016-05-27（周五）15:00:00
+组织单位：  理学院数学系
+主讲人简介：陈卫东，美国帕克大学数学系教授，2007年美国堪萨斯州立大学博士毕业。发表多篇计算数学方面高水平论文。
+内容摘要：In this presentation, the ill-posed problem of computation of the Fourier transform ^ f for a noisy band limited signal fis discussed. Here, ^ f is computed by a regularized Fourier serieswhich is obtained bya regularization of the Fourier transformed sampling formula of Shannon. 
+讲座主持：秦玉明
+讲座语言：英文 
+以上内容整理自东华大学官网，更多主讲人简介和讲座信息可登陆官网查看学术信息栏目。
+美编：禹晴
+责编：王蓓悦

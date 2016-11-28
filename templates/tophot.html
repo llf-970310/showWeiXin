@@ -1,0 +1,31 @@
+{% include 'base.html' %}
+
+    {% block content %}
+    <div class = "passage_main">
+        <h1>3-－6月最火的文章</h1><br>
+        {% for monthhot in monthhotall %}
+            <a href="{% url 'passage_detail' monthhot.id %}">{{ monthhot.title }}</a><p></p>
+        {% endfor %}
+===============================================================================================================<p></p>
+        <h1>每月最火的文章</h1><br>
+        <h4>3月最火的50篇文章: </h4>
+        {% for monthhot in monthhot3 %}
+            <a href="{% url 'passage_detail' monthhot.id %}">{{ monthhot.title }}</a><p></p>
+        {% endfor %}
+===============================================================================================================<p></p>
+        <h4>4月最火的50篇文章: </h4>
+        {% for monthhot in monthhot4 %}
+            <a href="{% url 'passage_detail' monthhot.id %}">{{ monthhot.title }}</a><p></p>
+        {% endfor %}
+===============================================================================================================<p></p>
+        <h4>5月最火的50篇文章: </h4>
+        {% for monthhot in monthhot5 %}
+            <a href="{% url 'passage_detail' monthhot.id %}">{{ monthhot.title }}</a><p></p>
+        {% endfor %}
+===============================================================================================================<p></p>
+        <h4>6月最火的50篇文章: </h4>
+        {% for monthhot in monthhot6 %}
+            <a href="{% url 'passage_detail' monthhot.id %}">{{ monthhot.title }}</a><p></p>
+        {% endfor %}
+    </div>
+    {% endblock %}

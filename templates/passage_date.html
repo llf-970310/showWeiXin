@@ -1,0 +1,22 @@
+{% include 'base.html' %}
+    {% block content %}
+                <a href="">三月：{{ passages03.count }}</a>&nbsp;&nbsp;
+                <a href="">四月：{{ passages04.count}}</a>&nbsp;&nbsp;
+                <a href="">五月：&nbsp;{{ passages05.count}}</a>&nbsp;&nbsp;
+                <a href="">六月：{{ passages06.count }}</a>&nbsp;&nbsp;
+                <a href="">总共：{{ passagesall.count }}</a>
+                <a href="">总共：{{ passages031.count }}</a>
+                <p></p>
+                <a href="">点赞：{{ sumdianzan }}</a>
+                <a href="">阅读：{{ sumyuedu }}</a>
+                <p></p>
+                {% for passage in passageshot %}
+                    <a href="">{{ passage.title }}</a>
+                    <p></p>
+                {% endfor %}
+        <p>--------------------------------------------------</p>
+                {% for passage in passagesyuedu %}
+                    <a href="">{{ passage.title }}</a>
+                    <p></p>
+                {% endfor %}
+    {% endblock %}

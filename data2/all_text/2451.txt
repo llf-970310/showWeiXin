@@ -1,0 +1,62 @@
+
+高校讲座的魅力在于，邀请的社会人士在大学课堂进行学术传播的时候，也许你会听不懂一些细节，他们的话语需要我们细心揣摩，但是，当大大小小的讲座丰富了你的课外学习生活，进入职场的你就是比别人更快、更自信、更强大。
+
+Convergence Rates of the Truncated Euler--Maruyama Method for Stochastic Differential Equations
+
+主讲人：Xuerong Mao
+地  点：松江校区2号学院楼331报告厅
+时  间：04-11（周一） 10:00:00
+组织单位：理学院
+主讲人简介：
+Xuerong Mao, Ph.D. from Warwick University. His main research interests lie in the field of stochastic analysis including stochastic stability, stabilization, control, numerical solutions, and stochastic modeling in finance, economic, and population systems.
+内容摘要：
+Recently, we developed a new explicit method in Mao (2015), called the truncated EM method, for the nonlinear SDE and established the strong convergence theory under the local Lipschitz condition plus the Khasminskii-type condition. However,we did not study the convergence rates for the method there,which is the aim of this paper. We will,under some additional conditions, discuss the rates of L^q-convergence of the truncated EM method for 2<q<p and show that the order of L^q-convergence can be arbitrarily close to q/2.
+讲座主持：胡良剑 教授
+讲座语言：英语
+
+Big Data, Integrating Physical and Social Sensingto Enable Smart Services
+
+主讲人：Robin Qiu，Professor of Information Science, Penn State, USA
+地  点：延安路校区旭日楼306室
+时  间：04-11（周一） 13:30:00
+组织单位：管理学院
+主讲人简介：
+Robin Qiu，Ph.D. in Industrial Engineering and Ph.D. (minor) in Computer Science both from The  Pennsylvania State University. He founded the annual IEEE International Conference on Service Operations and Logistics, and Informatics (SOLI) and served as its General co-Chair from 2005 to 2008. He was the chairperson of the 2007 International Conference on  Flexible Automation & Intelligent Manufacturing.Dr. Qiu’s research interests includeBig Data, Data Analytics, Smart Service Systems, Service Science, Service Operations and Management, Information Systems, andManufacturing andSupply Chain Management.
+内容摘要：
+Part I: People-centric sensing or social sensing transforms how we sense the world.  We discuss how we can integrate physical and social sensing to enable better and smarter services.
+Part II: We will explain a big data based framework in support of data retrieving, aggregations, transformations, and visualizations by focusing on public ratings and comments from different data sources and discuss how the proposed approach can be adopted in enhancing applications used in thepatient-centric healthcare  service community.
+讲座语言：英语
+
+The health benefits of physical activity
+
+主讲人：李立
+地  点：松江校区图文信息中心第七会议室
+时  间：04-12（周二） 13:00:00
+组织单位：机械学院
+主讲人介绍：
+Dr. Li， PhD in Exercise Science ，University of Massachusetts – Amherst. He initiated LSU Peripheral Neuropathy Studies in 2004, has been working on related projects until now.  Dr. Li is currently a research professor at Georgia Southern University. In addition to serves as reviewer for more than a dozen peer reviewed scientific journals, he is one of the founding editorial board members of the Journal of Sport and Health Science.Dr. Li is an active fellow of (American) National Academy of Kinesiology since 2014.   
+讲座语言：中文  
+
+正倒向随机控制系统的部分可观测最优控制问题
+
+主讲人： 吴臻 教授
+地   点： 松江校区2号学院楼331理学院报告厅
+时   间： 04-12（周二） 15:00:00
+组织单位：  理学院
+主讲人介绍：
+吴臻教授，国家杰出青年基金获得者、教育部长江学者特聘教授，山东大学数学学院党委书记、博士生导师。 
+内容摘要：
+This talk is concerned with a partial observable optimal control problem derived by forward-backward stochastic control sysetms with correlated noises between the system and the observation. By virtue of a direct method, an approximate method, and a decomposition method, some optimality conditions and feedback optimal controls are derived. Closed-form optimal solutions are obtained in some detailed cases. A recursive utility problem is explicitly solved by the theoretical results obtained
+报告主持：闫理坦 教授
+报告语言：中文
+
+发现生活之美
+
+主讲人：祁志祥
+地  点：松江校区图文信息中心第二报告厅
+时  间：04-13（周三） 18:00:00
+组织单位：团委
+主讲人简介：
+祁志祥，上海政法学院新闻传播与中文系教授，博士生导师，致力于中国美学、文艺理论、文化哲学的研究。曾独立主持、完成高等教育“十一五”国家级指南类规划教材《中国古代文学理论》，独立主持、完成2005年度国家社会科学基金项目“中国古代美学史的重新解读”。曾获国家图书奖荣誉奖、晋版图书一等奖、华北地区优秀图书奖、上海市社会科学联合会优秀论文奖、优秀征文奖、《书屋》年度十佳论文奖等。
+内容摘要：
+本讲座在综合古今中外关于美的思考成果的基础上，密切联系实际，揭示了美是有价值的快乐对象这个真谛，告诉人们美有两个基本要点，一是能够带来快乐，二是这种快乐必须有价值。

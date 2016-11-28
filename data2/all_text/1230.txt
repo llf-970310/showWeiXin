@@ -1,0 +1,24 @@
+【数学建模】超级亲密的MATLAB与数学建模
+2016-04-17 DHU理院学生会
+有人跟小编喊到:来，给我来两斤干货！
+于是小编抠遍网络，捞了点实用的东西。
+
+大二的同学们大概都对MATLAB有了初步的认识，那么MATLAB在数学建模中到底有什么样的贡献呢？
+
+MATLAB和Mathematica、Maple并称为三大数学软件。它在数学类科技应用软件中在数值计算方面首屈一指。MATLAB可以进行矩阵运算、绘制函数和数据、实现算法、创建用户界面、连接其他编程语言的程序等，主要应用于工程计算、控制设计、信号处理与通讯、图像处理、信号检测、金融建模设计与分析等领域。
+
+MATLAB的中文名叫矩阵实验室,因为MATLAB的基本数据单位是矩阵，它的指令表达式与数学、工程中常用的形式十分相似，故用MATLAB来解算问题要比用C，FORTRAN等语言完成相同的事情简捷得多，并且MATLAB也吸收了像Maple等软件的优点，使MATLAB成为一个强大的数学软件。在新的版本中也加入了对C，FORTRAN，C++，JAVA的支持。
+
+说到matlab在数学建模中的应用，数学建模中常规方法可以靠matlab实现，包括matlab交互、数据建模、程序绘图、灰色预测、规划模型等方法；高级方法的matlab实现，包括遗传算法、粒子群算法、模拟退火算法、人工神经网络、小波分析、动态仿真、数值模拟等。
+
+接下来请允许我附一个超级长的链接……
+《MATLAB在数学建模中的应用应用》这本书中详细的介绍了MATLAB在数学建模中的实用价值，有兴趣的同学可以慢慢钻研哦
+http://m5.baidu.com/from=1014254b/bd_page_type=1/ssid=0/uid=0/pu=usm%400%2Csz%401320_1001%2Cta%40iphone_2_4.3_3_537/baiduid=67F98F6804D7533C11A8A644F074A245/w=0_10_matlab%E5%9C%A8%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8/t=iphone/l=1/tcref=www_iphone&lid=6935965871893312817&order=6&vit=osres&tj=www_normal_6_0_10_title&waput=4&waplogo=1&cltj=normal_title&dict=-1&title=MATLAB%E5%9C%A8%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8%E8%B1%86%E4%B8%81%E7%BD%91&sec=11575&di=069f86aee8ef88e2&bdenc=1&tch=124.511.301.1257.1.386&tch=124.322.40.1258.2.610&nsrc=IlPT2AEptyoA_yixCFOxXnANedT62v3IEQGG_ypL1T3595qshbWxBcJpVzD82Sm5J5DhxWeCvslOtXPRRjIz7aZ2r_6ptmIe887&clk_info=%7B%22srcid%22%3A%22www_normal%22%2C%22order%22%3A%226%22%2C%22tplname%22%3A%22www_normal%22%2C%22t%22%3A1460790219188%2C%22xpath%22%3A%22div-div-div-a-p%22%7D
+其实大一的小朋友也可以提前了解一下这门必修的科目呢。
+学校机房的电脑里有matlab2013a的软件，打开即可使用哦，不知道有没有人在自己的电脑里上安装成功呢？无聊的时候倒是可以在网上找一下资源，下面是初学者的使用教程，没学过的宝宝们可以先看看哦！
+链接：http://pan.baidu.com/s/1geaEmMB
+密码：w2pi
+
+
+阅读 38赞 投诉
+写留言

@@ -1,0 +1,32 @@
+{% include 'base.html' %}
+
+{% block content %}
+    <div class="all_analyse" align="center">
+        <p>阅读量最多的前20个公众号：</p>
+        {% for pp in pyuedu %}
+                <a href="">公众号：{{ pp.department__dept }} </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="">阅读总数：{{ pp.yuedu__sum }} </a><p></p>
+{#                <br><br><br>#}
+{#                <a href="">三月累计发文总数：{{ passages03.count }} 篇</a><p></p>#}
+{#                <a href="">四月累计发文总数：{{ passages04.count}} 篇</a><p></p>#}
+{#                <a href="">五月累计发文总数：&nbsp;{{ passages05.count}} 篇</a><p></p>#}
+{#                <a href="">六月累计发文总数：{{ passages06.count }} 篇</a><p></p>#}
+{#                <a href="">四个月累计发文总数：{{ passagesall.count }} 篇</a><p></p>#}
+{#                <br><br><br>#}
+{#                <a href="">累计阅读：{{ sumyuedu }} 次</a><p></p>#}
+{#                <a href="">累计点赞：{{ sumdianzan}} 次</a><p></p>#}
+        {% endfor %}
+    =========================================================================================<p></p>
+        <p>点赞量最多的前20个公众号：</p>
+        {% for pp in pdianzan %}
+                <a href="">公众号：{{ pp.department__dept }} </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="">点赞总数：{{ pp.dianzan__sum }} </a><p></p>
+        {% endfor %}
+    =========================================================================================<p></p>
+        <p>发文最多的前20个公众号：</p>
+        {% for pp in ptext %}
+                <a href="">公众号：{{ pp.dept }} </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="">发文总数：{{ pp.passage__count }} </a><p></p>
+        {% endfor %}
+    </div>
+{% endblock %}

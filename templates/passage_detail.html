@@ -1,0 +1,14 @@
+{% include 'base.html' %}
+{% block content %}
+            <div class="passage_detail_header">
+                <a href=""><i class="fa fa-aw fa-file-text-o"></i>&nbsp;{{ passage.title }}</a>&nbsp;&nbsp;
+                <a href=""><i class="fa fa-aw fa-hand-o-up"></i>&nbsp;{{ passage.dianzan}}</a>&nbsp;&nbsp;
+                <a href=""><i class="fa fa-aw fa-file-image-o"></i>&nbsp;{{ passage.yuedu}}</a>&nbsp;&nbsp;
+                <a href=""><i class="fa fa-aw fa-clock-o"></i>&nbsp;{{ passage.publish_time }}</a>&nbsp;&nbsp;
+                <a href=""><i class="fa fa-aw fa-home"></i>&nbsp;{{ passage.departmentname }}</a>
+                <p></p>
+            </div>
+            <div class="passage_detail">
+                {{ passage.text|linebreaksbr }}<br>
+            </div>
+{% endblock %}

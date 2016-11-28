@@ -1,0 +1,20 @@
+{% include 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+    <br><br>
+    <p></p>
+    <div class = "passage_tendency">
+        <h4>3月公众号发文趋势图：</h4>
+        <img src="{% static 'march.png' %}" width="800" height="400">
+        <br><br>
+        <h4>4月公众号发文趋势图：</h4>
+        <img src="{% static 'april.png' %}" width="800" height="400">
+        <br><br>
+        <h4>5月公众号发文趋势图：</h4>
+        <img src="{% static 'may.png' %}" width="800" height="400">
+        <br><br>
+        <h4>6月公众号发文趋势图：</h4>
+        <img src="{% static 'june.png' %}" width="800" height="400">
+    </div>
+{% endblock %}
