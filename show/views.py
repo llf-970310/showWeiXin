@@ -20,14 +20,10 @@ def page_pre_solve(request):
 def finish(request):
     return render(request,'finish.html')
 
-def adddate(request):
+def pre_solve(request):
     import xlrd
     import jieba
     import jieba.analyse
-    from xlrd import xldate_as_tuple
-    import os
-    import pymysql
-    from ftplib import FTP
     from PIL import Image
     from wordcloud import WordCloud
     import numpy as np
@@ -45,7 +41,7 @@ def adddate(request):
             # wf.write("open error !")
             print("open error!")
 
-    def excel_msg_byindex():
+    def excel_msg_byindex1():
         data = open_xls()
         table = data.sheets()[0]
         gongzhong = []
@@ -62,39 +58,10 @@ def adddate(request):
                 newgongzhong.append(i)
 
         for i in newgongzhong:
-            if(i):
+            if (i):
                 Dept.objects.create(dept=i)
 
-    def main():
-        excel_msg_byindex()
-
-    main()
-
-    return render(request,'main.html')
-
-def pre_solve(request):
-    import xlrd
-    import jieba
-    import jieba.analyse
-    from PIL import Image
-    from wordcloud import WordCloud
-    import numpy as np
-    import matplotlib.pyplot as lhwd
-
-    # jieba.analyse.set_stop_words("/Users/lhwd/Desktop/project/weixin/main/jieba/extra_dict/self_stop_words.txt")
-
-
-    def open_xls(rfile="catch.xlsx"):
-        try:
-            data = xlrd.open_workbook(rfile)
-            # wf.write("open successfully !"+'\n')
-            print("open successfully !")
-            return data
-        except:
-            # wf.write("open error !")
-            print("open error!")
-
-    def excel_msg_byindex():
+    def excel_msg_byindex2():
         data = open_xls()
         table = data.sheets()[0]
         gongzhong = []
@@ -109,7 +76,6 @@ def pre_solve(request):
                     passagedept = Passage.objects.get(id = count)
                     passagedept.department_id = Dept.objects.get(dept=row[0]).id
                     passagedept.save()
-                    print("error!")
                     try:
                         a = xldate_as_tuple(row[3], 0)
                         y, m, d = a[0:3]
@@ -129,7 +95,7 @@ def pre_solve(request):
 
                         if i == 4:
                             ftext = open(
-                                "F:\\Python\\showweixin\\data2\\text_yueduanddianzan\\" + str(count) + ".txt", "w")
+                                "./data/text_yueduanddianzan/" + str(count) + ".txt", "w")
                             ftext.write(str(row[4]) + ' ' + str(row[5]))
                             yuedu[count] = row[4]
                             dianzan[count] = row[5]
@@ -137,7 +103,7 @@ def pre_solve(request):
 
                         if i == 6:
                             wf.write(str(row[i]) + '\n')
-                            ftext = open("F:\\Python\\showweixin\\data2\\all_text\\" + str(count) + ".txt", "w")
+                            ftext = open("./data/all_text/" + str(count) + ".txt", "w")
                             ftext.write(str(row[i]))
                             ftext.close()
                     count += 1
@@ -160,7 +126,7 @@ def pre_solve(request):
         STATIC_NUM = count
 
     def posseg_textrank():
-        r = open("F:\\Python\\showweixin\\data2\\analyse_text_excel.txt", "r").read()
+        r = open("./data/analyse_text_excel.txt", "r").read()
         textrankword = []
         for x, w in jieba.analyse.textrank(r, topK=50, withWeight=True):
             textrankword.append((x, w))
@@ -176,7 +142,7 @@ def pre_solve(request):
             #print(i)
             tt = []
             for j in range(1, STATIC_NUM):
-                filett = open("F:\\Python\\showweixin\\data2\\all_text\\" + str(j) + ".txt", "r")
+                filett = open("./data/all_text/" + str(j) + ".txt", "r")
                 text = filett.read()
                 # print (text)
                 if i[0] in text:
@@ -187,7 +153,7 @@ def pre_solve(request):
                     except:
                         ttt = 0
                     tt.append(j)
-            fkey = open("F:\\Python\\showweixin\\data2\\textrankkey_to_text\\" + str(i[0]) + ".txt", "w")
+            fkey = open("./data/textrankkey_to_text/" + str(i[0]) + ".txt", "w")
             fkey.write(str(tt))
             fkey.close()
 
@@ -195,24 +161,25 @@ def pre_solve(request):
         # b = Book.objects.get(id=50)
         # b.authors.add(a)
         # ------使用wordcloud云图库对所提取出的关键词进行云图的绘制，记住需要提供可以汉化的ttf，否则显示不了汉字，非常蛋疼！！！------#
-        phone_mask = np.array(Image.open("F:\\Python\\showweixin\\background.jpg", "r"))
+        phone_mask = np.array(Image.open("background.jpg", "r"))
         lhwd11 = WordCloud(
             font_path="/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/matplotlib/mpl-data/fonts/ttf/Yahei.ttf",
             background_color="black", mask=phone_mask).fit_words(textrankword[:50])
         lhwd.axis("off")
         # lhwd.show()
-        lhwd11.to_file("F:\\Python\\showweixin\\data2\\textrank_wordcloud.jpg")  # 保存生成的云图
+        lhwd11.to_file("./data/textrank_wordcloud.jpg")  # 保存生成的云图
 
     def main():
-        excel_msg_byindex()
+        excel_msg_byindex1()
+        excel_msg_byindex2()
         wf.close()
         posseg_textrank()  # 通过textrank算法进行相应的关键词分词，同时显示关键词的词频
 
-    wf = open("F:\\Python\\showweixin\\data2\\analyse_text_excel.txt", "w")
-    f = open("F:\\Python\\showweixin\\data2\\analyse_result_tfidf.txt", "w")
-    f1 = open("F:\\Python\\showweixin\\data2\\analyse_result_freq.txt", "w")
-    f2 = open("F:\\Python\\showweixin\\data2\\analyse_result_textrank.txt", "w")
-    fgongzhong = open("F:\\Python\\showweixin\\data2\\gongzhong\\gongzhong.txt", "w")
+    wf = open("./data/analyse_text_excel.txt", "w")
+    f = open("./data/analyse_result_tfidf.txt", "w")
+    f1 = open("./data/analyse_result_freq.txt", "w")
+    f2 = open("./data/analyse_result_textrank.txt", "w")
+    fgongzhong = open("./data/gongzhong/gongzhong.txt", "w")
     main()
     f.close()
     f1.close()

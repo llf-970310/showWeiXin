@@ -23,7 +23,6 @@ urlpatterns = [
     url(r'^processing/$',views.pre_solve,name="pre_solve"),
     url(r'^$',views.show_keywords,name='show_keywords'),
     url(r'^finish/$',views.finish,name='finish'),
-    url(r'^adddate/$',views.adddate,name='adddate'),
     url(r'^keywordpassage/(?P<page1>[0-9]+)/$',views.show_keyword_passage,name="show_keyword_passage"),
     url(r'^passage_detail/(?P<page>[0-9]+)/$',views.passage_detail,name='passage_detail'),
     url(r'^passage_all_analyse/$',views.passage_all_analyse,name='passage_all_analyse'),  #总体分析  公众号总数、所有公众号发文章总数、所有文章总点赞数、总阅读数
